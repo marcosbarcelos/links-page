@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* desenvolvido em mobile first */
+:root {
+  --body-color: #fff;
+  --card-bg: #f0f2fa;
+  --heading-color: #1e202a;
+  --text-color: #63687e;
+}
+
+.dark {
+  --body-color: #0a192f;
+  --card-bg: #252a41;
+  --heading-color: #8b97c6;
+  --text-color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--body-color);
+  transition: 0.5s ease-in-out;
+}
+
+.dark__button {
+  position: absolute;
+  right: 1.2rem;
+  top: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: var(--heading-color);
+}
+
+.card {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.card__title {
+  color: var(--heading-color);
+  padding: 0.8rem 0;
+  font-size: 2.2rem;
+}
+
+.card__subtitle {
+  color: var(--text-color);
+  padding-bottom: 1rem;
+}
+
+.card__desc {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.card__icons {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+}
+
+.icons__link {
+  color: var(--heading-color);
+  font-size: 1.4rem;
+}
+
+.icons__link:hover {
+  color: var(--text-color);
+}
