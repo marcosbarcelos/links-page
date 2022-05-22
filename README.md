@@ -2,7 +2,8 @@
     Links Page
 </h1>
 <p align="center">
-    <a href="https://links-page.vercel.app/" target="_blank">Link Page - Acesse</a>
+    <a href="https://links-page-marcosbarcelos.vercel.app/" target="_blank">Acesse</a>
 </p>
 
-<img src="design/design.png">
+<img src="design/dark.png">
+<img src="design/light.png">
